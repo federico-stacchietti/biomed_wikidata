@@ -1,0 +1,73 @@
+statement,item,property,value,type
+Thumb is part of hand.,hand,part of,thumb,0
+Middle finger is part of hand.,hand,part of,middle finger,0
+Index finger is part of hand.,hand,part of,index finger,0
+Ring finger is part of hand.,hand,part of,ring finger,0
+Little finger is part of hand.,hand,part of,little finger,0
+Finger is part of hand.,hand,part of,finger,0
+Palm is part of hand.,hand,part of,palm,0
+Palmar crease is part of hand.,hand,part of,palmar crease,0
+Fist is part of hand.,hand,part of,fist,0
+Upper arm is part of arm.,arm,part of,upper arm,0
+Brain is part of head.,head,part of,brain,0
+Ear is part of head.,head,part of,ear,0
+Mouth is part of head.,head,part of,mouth,0
+Face is part of head.,head,part of,face,0
+Snout is part of head.,head,part of,snout,0
+Habenula is part of head.,head,part of,habenula,0
+Nape is part of head.,head,part of,nape,0
+Crest of feathers is part of head.,head,part of,crest of feathers,0
+Human face is part of head.,head,part of,human face,0
+Navel is part of abdomen.,abdomen,part of,navel,0
+Waist is part of abdomen.,abdomen,part of,waist,0
+Epigastrium is part of abdomen.,abdomen,part of,epigastrium,0
+Flank is part of abdomen.,abdomen,part of,flank,0
+Loin is part of abdomen.,abdomen,part of,loin,0
+Hypochondrium is part of abdomen.,abdomen,part of,hypochondrium,0
+Hypogastrium is part of abdomen.,abdomen,part of,hypogastrium,0
+Umbilical region is part of abdomen.,abdomen,part of,umbilical region,0
+Passaro's triangle is part of abdomen.,abdomen,part of,Passaro's triangle,0
+Chest fitting in metal is part of chest.,chest,part of,chest fitting in metal,0
+Tongue is part of mouth.,mouth,part of,tongue,0
+Dental arch is part of mouth.,mouth,part of,dental arch,0
+Palate is part of mouth.,mouth,part of,palate,0
+Jaw is part of mouth.,mouth,part of,jaw,0
+Labium is part of mouth.,mouth,part of,Labium,0
+Upper lip is part of mouth.,mouth,part of,upper lip,0
+Floor of mouth is part of mouth.,mouth,part of,floor of mouth,0
+Epidermis is part of skin.,skin,part of,epidermis,0
+Gland in skin is part of skin.,skin,part of,gland in skin,0
+Arrector pili muscle is part of skin.,skin,part of,arrector pili muscle,0
+Skin cell is part of skin.,skin,part of,skin cell,0
+Skin flake is part of skin.,skin,part of,skin flake,0
+Cutaneous metabolism is part of skin.,skin,part of,cutaneous metabolism,0
+Basal cell of the skin is part of skin.,skin,part of,basal cell of the skin,0
+Inner ear is part of ear.,ear,part of,inner ear,0
+Middle ear is part of ear.,ear,part of,middle ear,0
+Outer ear is part of ear.,ear,part of,outer ear,0
+Earlobe is part of ear.,ear,part of,earlobe,0
+Orthomyxoviridae has effect of influenza.,influenza,has effect,Orthomyxoviridae,0
+Dioxins and dioxin-like compounds has effect of cancer.,cancer,has effect,dioxins and dioxin-like compounds,0
+Somatic mutation has effect of cancer.,cancer,has effect,somatic mutation,0
+Metal poisoning has effect of cancer.,cancer,has effect,metal poisoning,0
+Neoplastic malignancy has effect of cancer.,cancer,has effect,neoplastic malignancy,0
+Pollutant has effect of cancer.,cancer,has effect,pollutant,0
+4-aminodiphenyl exposure has effect of cancer.,cancer,has effect,4-aminodiphenyl exposure,0
+Arsine exposure has effect of cancer.,cancer,has effect,arsine exposure,0
+Benzene exposure has effect of cancer.,cancer,has effect,benzene exposure,0
+Lewisite exposure has effect of cancer.,cancer,has effect,lewisite exposure,0
+Fly ash has effect of asthma.,asthma,has effect,fly ash,0
+Asthmagen has effect of asthma.,asthma,has effect,asthmagen,0
+Phenacyl chloride exposure has effect of asthma.,asthma,has effect,phenacyl chloride exposure,0
+Internal ribosome entry site involves RNA.,RNA,part of,internal ribosome entry site,0
+Hymai involves RNA.,RNA,part of,HYMAI,0
+Scrna involves RNA.,RNA,part of,ScRNA,0
+Internal loop involves RNA.,RNA,part of,Internal loop,0
+Rna motif involves RNA.,RNA,part of,RNA motif,0
+Deoxyribonucleotide involves DNA.,DNA,part of,deoxyribonucleotide,0
+Ap site involves DNA.,DNA,part of,AP site,0
+Intergenic region involves DNA.,DNA,part of,intergenic region,0
+Forward strand involves DNA.,DNA,part of,forward strand,0
+Reverse strand involves DNA.,DNA,part of,reverse strand,0
+Dna motif involves DNA.,DNA,part of,DNA motif,0
+Grooves involves DNA.,DNA,part of,grooves,0
