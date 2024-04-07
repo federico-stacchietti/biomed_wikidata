@@ -21,7 +21,7 @@ cd biomed_wikidata
 pip install -r requirements.txt
 ```
 
-2. Run some sample searches and save the statements in a .csv
+2. Run some sample searches and save the statements in a .csv file
 ```bash
 python3 sparql_search.py
 ```
