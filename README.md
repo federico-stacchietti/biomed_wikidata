@@ -1,4 +1,4 @@
-# SPARQL Search Project Setup
+# Biomed kwnoledge extraction through Wikidata
 
 This project is designed to run SPARQL queries to build statements from Wikidata kwnoledge. Given a list of items and a property common to these items, it retrieves values linked to said items through the speficied property. Templates can be specified to build custom statements.
 
