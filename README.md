@@ -19,9 +19,11 @@ Follow these steps to set up the project environment:
 git clone https://github.com/federico-stacchietti/biomed_wikidata.git
 cd /biomed_wikidata
 pip install -r requirements.txt
+```
 
 2. **Run some sample searches and save the statements in a .csv
-'''bash
+```bash
 python3 sparql_search.py
+```
 
 
