@@ -5,7 +5,6 @@ import re
 def get_item_id(item, search):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
-    # Set a user-agent
     sparql.addCustomHttpHeader("User-Agent", "MyApp/1.0 (MyContactInfo@example.com)")
 
     query = f"""
@@ -20,7 +19,7 @@ def get_item_id(item, search):
 
     if results["results"]["bindings"]:
         item_url = results["results"]["bindings"][0]["item"]["value"]
-        item_id = item_url.split('/')[-1]  # Extract ID from the full URL
+        item_id = item_url.split('/')[-1]
         search.add_items_id_map(item, item_id)
         search.add_id_items_map(item_id, item)
         return item_id
@@ -31,7 +30,6 @@ def get_item_id(item, search):
 def get_property_id(search):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
-    # Set a user-agent
     sparql.addCustomHttpHeader("User-Agent", "MyApp/1.0 (MyContactInfo@example.com)")
 
     query = f"""
@@ -46,7 +44,7 @@ def get_property_id(search):
 
     if results["results"]["bindings"]:
         item_url = results["results"]["bindings"][0]["item"]["value"]
-        item_id = item_url.split('/')[-1]  # Extract ID from the full URL
+        item_id = item_url.split('/')[-1]
         search.set_property_id(item_id)
         return item_id
     else:
@@ -62,7 +60,7 @@ def get_values_for_item(item, property, search):
     item_id = search.get_id_from_item(item)
     query = f"""
     SELECT ?subPart ?subPartLabel WHERE {{
-      ?subPart wdt:{property} wd:{item_id};  # Is part of the body part
+      ?subPart wdt:{property} wd:{item_id}; 
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
     }}
     LIMIT 10
@@ -94,4 +92,4 @@ def check_false_relationship(item_id, property, value_id):
     sparql.setReturnFormat(JSON)
     result = sparql.query().convert()
 
-    return not result['boolean']  # Returns True if the relationship does NOT exist (i.e., counterfactual is valid)
+    return not result['boolean']

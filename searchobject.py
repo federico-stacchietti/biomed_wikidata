@@ -157,29 +157,3 @@ class SearchObject:
                 for counterfactual in counterfactuals:
                     print(counterfactual)
             df.to_csv(self.file_path, index=False)
-
-
-    # def build_counterfactuals(self, value_id, n=2):
-    #     template_text = self.template[0]
-    #     template_order = self.template[1]
-    #
-    #     counterfactuals = []
-    #
-    #     pairs = []
-    #
-    #     for item_id in self.id_items_map.keys():
-    #         if check_false_relationship(item_id, self.property_id, value_id):
-    #             pairs.append((self.get_item_from_id(item_id), self.get_value_from_id(value_id)))
-    #         else:
-    #             print(f"Counterfactual not valid: {self.get_value_from_id(value_id)} "
-    #                   f"is part of {self.get_item_from_id(item_id)}")
-    #
-    #     for pair in pairs:
-    #         item = pair[0]
-    #         value = pair[1]
-    #         if template_order == ['value', 'property', 'item']:
-    #             counterfactuals.append(template_text.format(value.capitalize(), self.property_label, item))
-    #         else:
-    #             counterfactuals.append(template_text.format(item.capitalize(), self.property_label, value))
-    #
-    #     return counterfactuals

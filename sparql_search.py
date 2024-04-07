@@ -2,13 +2,8 @@ from searchobject import SearchObject
 import os
 
 if __name__ == '__main__':
-    import os
 
-    # get the current working directory
     current_working_directory = os.getcwd()
-
-    # print output to the console
-    print(current_working_directory)
 
     if os.path.isfile(f'{current_working_directory}/datasets/statements.csv'):
         os.system('rm ' + f'{current_working_directory}/datasets/statements.csv')
