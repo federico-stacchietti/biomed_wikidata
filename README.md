@@ -14,9 +14,14 @@ These dependencies are listed in the `requirements.txt` file.
 
 Follow these steps to set up the project environment:
 
-1. **Clone the Project and install requirements**  
-First, clone the project repository to your local machine:
+1. **Clone the Project and install the requirements**  
 ```bash
 git clone https://github.com/federico-stacchietti/biomed_wikidata.git
 cd /biomed_wikidata
 pip install -r requirements.txt
+
+2. **Run some sample searches and save the statements in a .csv
+'''bash
+python3 sparql_search.py
+
+
